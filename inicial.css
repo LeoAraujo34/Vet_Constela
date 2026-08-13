@@ -19,6 +19,7 @@
   background: #77947a;
 }
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -104,7 +105,6 @@ body{
 #home{
     display: flex;
     justify-content: center;
-    padding: 100 5%;
     gap: 50px;
 }
 .container_home{
@@ -586,7 +586,6 @@ body{
 #menu_contato{
     display: flex;
     justify-content: center;
-    padding: 100 5%;
     gap: 50px;
 }
 .container_contato{
