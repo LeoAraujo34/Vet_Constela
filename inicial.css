@@ -382,7 +382,7 @@ body{
 .container_footer{
     max-width: 1300px;
     margin: auto;
-    padding: 0 5% 40px;
+    padding: 0px 5% 40px;
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -440,7 +440,7 @@ body{
 .container_menu{
     width: 100%;
     max-width: 75rem;
-    padding: 0 3%;
+    padding: 0px 3%;
     flex-wrap: nowrap;
 }
 .h1_row{
@@ -474,7 +474,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    padding: 0 20px; 
+    padding: 0px 20px; 
     box-sizing: border-box;
 }
 .row_about{
