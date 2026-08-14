@@ -4,7 +4,6 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     header("Location: index.html");
     exit;
 }
-if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     $nome = $_POST['nome'] ?? '';
     $email = $_POST['email'] ?? '';
     $tel = $_POST['tel'] ?? '';
@@ -19,17 +18,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     }elseif (empty($texto)){
         echo "Preencha a mensagem!";
     }else{
-        $mensagem_valida;
+        
     }
-}
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="inicial.css"/>
-    <title>Document</title>
+    <title>Envia Contato</title>
 </head>
 <body>
       <div class="top_bar">
